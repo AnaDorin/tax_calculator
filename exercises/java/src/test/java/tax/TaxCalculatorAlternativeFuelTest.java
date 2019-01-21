@@ -15,7 +15,7 @@ import static tax.FuelType.ELECTRIC;
 public class TaxCalculatorAlternativeFuelTest {
 
     private static final LocalDate FIRST_OF_JAN_2019 = LocalDate.of(2019, JANUARY, 1);
-    private TaxCalculator taxCalculator;
+    private ActualTaxCalculator taxCalculator;
 
     @Before
     public void setUp() {

@@ -18,4 +18,6 @@ abstract class TaxCalculator{
     int getYear() {
         return year;
     }
+
+
 }

@@ -1,7 +1,6 @@
 package tax;
 
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.time.LocalDate;
@@ -17,7 +16,7 @@ public class TaxCalculatorPetrolTest {
 
     @Before
     public void setUp() {
-        taxCalculator = new DummyTaxCalculator();
+        taxCalculator = new ActualTaxCalculator();
     }
 
     @Test
