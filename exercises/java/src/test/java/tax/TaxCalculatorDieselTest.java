@@ -14,11 +14,11 @@ import static tax.FuelType.DIESEL;
 public class TaxCalculatorDieselTest {
 
     private static final LocalDate FIRST_OF_JAN_2019 = LocalDate.of(2019, JANUARY, 1);
-    private ActualTaxCalculator taxCalculator;
+    private TaxCalculator taxCalculator;
 
     @Before
     public void setUp(){
-        taxCalculator = new DummyTaxCalculator();
+        taxCalculator = new ActualTaxCalculator();
     }
 
     @Test
