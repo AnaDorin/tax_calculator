@@ -8,7 +8,8 @@ This code is a simplified implementation of the rules for UK vehicle tax as of 2
 
 ##### First tax payment when you register the vehicle
 
-|C02 g/km   |Petrol |
+
+|C02 g/km  |Petrol |
 |-----------|-------|
 |0	        |£0	    |
 |1 - 50	    |£10	|
